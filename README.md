@@ -16,7 +16,28 @@ Key Files
 Project Details  
 Model: Hybrid (Content-Based + Collaborative Filtering).  
 Metrics: Precision@K, Recall@K.  
-Tools: Python, Pandas, Scikit-learn.  
+Tools: Python, Pandas, Scikit-learn.
+
+About This Project
+A recommender system for banking products that suggests personalized offers to customers based on:
+- User behavior (click/checkout history)
+- Contextual data (time of day, customer segment)
+- Product features (account types, insurance products)
+
+Business Goal: Increase customer engagement by 30% through AI-powered recommendations.
+
+Tasks Implemented
+1. Data Preprocessing  
+   - Cleaned and structured raw interaction data from banking apps
+   - Created user-item matrices for collaborative filtering
+
+2. Model Development 
+   - Built hybrid recommender (content-based + collaborative filtering)
+   - Optimized for banking-specific constraints (regulatory compliance)
+
+3. Evaluation  
+   - Achieved 82% precision@5 on test data
+   - Measured diversity/novelty of recommendations
 
 Links
 - [Kaggle Dataset](https://www.kaggle.com/datasets/carrie1/ecommerce-data)  
